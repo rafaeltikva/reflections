@@ -18,3 +18,7 @@ they allow us to separate our working repository from our testing/dev repositor.
 How do the diagrams help you visualize the branch structure?
 
 it helps me identify the tree, and lets me experiment on a certain commit without worrying it will have affect on my branch, or alternatively, i can "export" commits to a separate branch without affecting the original branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it merges the contents of both branches, including their previous commits and history. the representation in the diagram helps us understand that the new commit actually holds the merge, including the branch snapshots of each merged branch. this allows us to safely delete the merged branches, as we don't need them anymore (we merged them into one branch). 
