@@ -22,3 +22,8 @@ it helps me identify the tree, and lets me experiment on a certain commit withou
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 it merges the contents of both branches, including their previous commits and history. the representation in the diagram helps us understand that the new commit actually holds the merge, including the branch snapshots of each merged branch. this allows us to safely delete the merged branches, as we don't need them anymore (we merged them into one branch). 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: less hassle, faster development
+cons: potentially unwanted behavior and bugs
