@@ -6,3 +6,11 @@ git creates a repository, with the .git directory of the local branch holding th
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the staging area provides an intermediate area for applying only the changes i'm interested in, instead of including my entire working directory. this gives me the needed flexibility to choose exactly what changes should be included in a commit, vs changes that are still in development
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+by adding the files relevant to the logical change to the staging area, and therefore not affecting the rest of the files in my working directory
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+they allow us to create a new version of a repository that are not part of the current plan. this can be helpful for testing certain features, adding new modes, test different ideas and concepts etc'.
