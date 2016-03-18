@@ -1,4 +1,0 @@
-
-What happens when you initialize a repository? Why do you need to do it?
-
-git creates a repository, with the .git directory of the local branch holding the information & metadata of the repository.
