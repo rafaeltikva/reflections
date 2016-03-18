@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+it showed me the places that were different between the 2 files, and therefore helped pinpoint the typo
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+it will help me find out what changes were made easily, instead of having me remember them myself. Then i can see what new bugs pop up, and browse the previous versions to find out what change ma have caused this bug
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+it gives you more flexibility to save versions based on your requirements, rather than having it automated and having it save too much or too few versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+git is repository based. meaning each file is part of a whole project (aka repository), so it makes sense to make changes in multiple files in one project. In Google Docs, each document is a standalone document (even if they are somehow related to another document). Representing a single Google Doc file makes it more modular instead of grouping files together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows me the history of commits, which i can then use git digg to compare two commits and see what changed between commits. passing --stat to git diff prints exactly what files were changed between the commits, and how many lines were added and removed.
+
+How might using version control make you more confident to make changes that could break something?
+
+knowing that i can simply return back to older commits (before i made changes) before i broke my code gives me peace of mind to take bigger risks and make more changes, knowing that i can always return to my working code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+i want to be able to make bigger changes instead of checking every time that i didn't break anything. i want to commit for features, bug fixes etc'... i will start using it for my development for every project.
+
