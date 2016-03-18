@@ -13,4 +13,4 @@ by adding the files relevant to the logical change to the staging area, and ther
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-they allow us to create a new version of a repository that are not part of the current plan. this can be helpful for testing certain features, adding new modes, test different ideas and concepts etc'.
+they allow us to separate our working repository from our testing/dev repositor. this can be helpful for testing certain features, fixing bugs, adding new modes, test different ideas and concepts etc'.
