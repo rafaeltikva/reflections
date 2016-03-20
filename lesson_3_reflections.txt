@@ -17,3 +17,7 @@ it allows us to work offline with the latest up-to-date version available in the
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 use a less confusing tracking system & collaboration tool like Jira. It's a little less complicated, and the learning overhead is relatively lower than github, which requires using Git...other applications don't force you to use any fixed application to use it properly, which allows non-developers to collaborate as well.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+this is common when working in a team, and we want to suggest a bug fix or a new feature to the repository admin/team leader. instead of changing the master branch and affecting the "working" version, we can have a separate branch dedicated to the change we want to run by our team or suggest to our manager
